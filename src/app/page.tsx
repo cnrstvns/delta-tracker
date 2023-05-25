@@ -1,8 +1,8 @@
 'use client';
 
-import { useFlightData } from '@/hooks/use-flight-data';
-import { Time } from './_components/time';
-import { Card } from './_components/card';
+import { useFlightData } from '@/app/_hooks/use-flight-data';
+import { Time } from '@/app/_components/time';
+import { Card } from '@/app/_components/card';
 
 export default function Home() {
   const { data } = useFlightData();
